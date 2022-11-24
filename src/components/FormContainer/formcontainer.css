@@ -1,0 +1,136 @@
+.formContainer {
+  width: 70%;
+  max-width: 1025px;
+  margin: auto;
+}
+.formSelectRowButton {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  justify-content: space-around;
+}
+.formButton {
+  width: 200px;
+}
+.formBox {
+  box-shadow: -1px 0px 8px 4px #0a0b0c5c !important;
+}
+.formBoxWrapper {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 1rem;
+  width: 80%;
+  padding-bottom: 15px;
+}
+.formBoxHeader {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.ReleaseAdoptForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  gap: 1rem;
+  width: 100%;
+  padding: 32px;
+}
+.ReleaseAdoptForm input,
+select,
+textarea {
+  border: none;
+  outline: none;
+  height: 50px;
+  padding: 0 2rem;
+  font-family: var(--nunito);
+  color: rgba(240, 248, 255, 0.87);
+  background: #26262670;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 0.3px solid rgb(43 43 43);
+  /* -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527; */
+  box-shadow: -5px -3px 7px #1c1d1f, -5px -5px 7px #222527;
+}
+.ReleaseAdoptForm textarea {
+  width: 100%;
+}
+.ReleaseAdoptForm select {
+  height: 50px;
+  padding-left: 2rem;
+}
+
+.ReleaseAdoptForm button {
+  margin: 1rem 0;
+  width: 115px !important;
+  text-align: center;
+}
+.ReleaseAdoptForm input::placeholder {
+  letter-spacing: 1.1px;
+}
+.formButton {
+  padding: 10px 10px;
+  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  height: 40px;
+  background-color: #2d2e2f;
+  display: flex;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 120px;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  letter-spacing: 1.1px;
+}
+.formBoxHeaderInnerBox {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.specialLetter {
+  color: #ce6816;
+}
+.petAdoptFormBottomTExt {
+  font-size: 12px;
+  font-family: "poppins";
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  line-height: 27px;
+  letter-spacing: 1.07px;
+}
+.currentAdoptionPetName {
+  color: #ce6816;
+  font-size: 3.3rem;
+}
+.adoptionFormHeaderText {
+  color: gray;
+  letter-spacing: 4.2px;
+  font-size: "poppins";
+  font-size: 25px !important;
+  font-size: 18px;
+}
+.goBackHomeButtonBox {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  background-color: #bb5d0f;
+
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.goBackHomeButtonBox svg {
+  font-size: 1.5rem;
+  fill: white !important;
+}

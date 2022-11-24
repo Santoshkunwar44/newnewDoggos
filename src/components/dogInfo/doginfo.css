@@ -1,0 +1,21 @@
+.dogInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+  min-height: 400px;
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.noDogListDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+.noDogListDiv h3 {
+  font-size: 2rem;
+}
